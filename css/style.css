@@ -1,9 +1,79 @@
+/* *{
+    border: solid 3px red;
+} */
+
 .title{
-    color: red;
+    background-color: rgb(255, 179, 71);
+    text-align: center;
+    
 }
 
+body{
+    background-color: rgb(255, 223, 211);
+}
 
 .pup{
-    margin-top: 50px;
+    /* margin-top: 50px;
+    width: 100%; */
+    height: auto;
     max-width: 100%;
 }
+.kennel{
+    margin: auto;
+    border: groove 5px palevioletred;
+    padding: 5px;
+    width: 50%;
+   
+    
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .title{
+         background-color: rgba(137, 43, 226, 0.449);
+         color: white;
+         transform: rotate(180deg);
+         
+    }
+
+    .pup{
+            /* This is to make pic negative */
+            -webkit-filter:invert(100%); 
+             filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+            transform: rotate(180deg);
+             
+        }
+    .pup:hover{
+        transform: rotate(1800deg);
+    }
+
+    body{
+        background-color: black;
+    }
+
+    .para1{
+        color: white;
+    }
+
+    .goo{
+        color: white;
+    }
+}
+@media only screen and (min-width: 901px){
+    .title{
+        background-color: thistle;
+        color: white;
+    }
+
+    body{
+        background-color: paleturquoise;
+    }
+
+    .para1{
+        color:salmon;
+    }
+    .goo{
+        color: salmon;
+    }
+}
+

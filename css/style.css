@@ -80,5 +80,9 @@ body{
     .goo{
         color: salmon;
     }
+
+    .pup:hover{
+        display: inline;
+    }
 }
 

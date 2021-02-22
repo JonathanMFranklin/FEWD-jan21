@@ -2,7 +2,7 @@
     border: solid 3px red;
 } */
 
-.title{
+.head1{
     background-color: rgb(255, 179, 71);
     text-align: center;
     
@@ -18,6 +18,10 @@ body{
     height: auto;
     max-width: 100%;
 }
+
+.pup:hover{
+    display: none;
+}
 .kennel{
     margin: auto;
     border: groove 5px palevioletred;
@@ -29,7 +33,7 @@ body{
 
 /* tablet */
 @media only screen and (min-width: 600px) and (max-width: 900px){
-    .title{
+    .head1{
          background-color: rgba(137, 43, 226, 0.449);
          color: white;
          transform: rotate(180deg);
@@ -43,6 +47,7 @@ body{
             transform: rotate(180deg);
              
         }
+
     .pup:hover{
         transform: rotate(1800deg);
     }
@@ -60,7 +65,7 @@ body{
     }
 }
 @media only screen and (min-width: 901px){
-    .title{
+    .head1{
         background-color: thistle;
         color: white;
     }

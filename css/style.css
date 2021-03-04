@@ -31,6 +31,10 @@ body{
     
 }
 
+.toppings{
+    margin-top: 100px;
+}
+
 /* tablet */
 @media only screen and (min-width: 600px) and (max-width: 900px){
     .head1{
@@ -63,7 +67,13 @@ body{
     .goo{
         color: white;
     }
+
+    .toppings{
+        color: ghostwhite;
+        margin-top: 100px;
+    }
 }
+
 @media only screen and (min-width: 901px){
     .head1{
         background-color: thistle;
@@ -83,6 +93,11 @@ body{
 
     .pup:hover{
         display: inline;
+    }
+
+    .toppings{
+        color: rgba(82, 34, 108, 0.585);
+        margin-top: 100px;
     }
 }
 
